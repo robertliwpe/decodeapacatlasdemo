@@ -11,6 +11,8 @@ export default function Preview() {
   const { usePreview } = client;
   const isPage = !!page_id;
 
+  //Add preview logic for custom post type components here
+
   const postOrPage: unknown = usePreview({
     pageId: isPage ? (p as string) : undefined,
     postId: !isPage ? (p as string) : undefined,

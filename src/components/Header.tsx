@@ -38,14 +38,22 @@ function Header({
               </li>
             ))}
             <li>
+              <Link href="/team">
+              <a href="/team">
+                    Team
+                  </a>
+                  </Link>
+              </li>
+            <li>
               <Link href="https://github.com/wpengine/headless-framework">
                 <a
                   className="button"
                   href="https://github.com/wpengine/headless-framework">
                   GitHub
                 </a>
-              </Link>
+                </Link>
             </li>
+
           </ul>
         </div>
       </div>
